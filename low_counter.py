@@ -8,7 +8,7 @@ def count_low(item_list):
     return count
 
 # Testing
-test_list = [1, 3, 5, 12, 15, 8, 2]
+test_list = [1, 3, 5, 12, 15, 8, 2, 5]
 number_low = count_low(test_list)
 report = f"Found {number_low} items less than 10."
 
